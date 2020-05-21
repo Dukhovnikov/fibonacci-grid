@@ -1,0 +1,45 @@
+.container {
+  padding: 15px;
+  display: flex;
+  height: 100vh;
+}
+
+.container > .c1 {
+  width: 5%;
+}
+
+.container > .c2 {
+  width: 10%;
+}
+
+.container > .c3 {
+  width: 15%;
+}
+
+.container > .c5 {
+  width: 25%;
+}
+
+.container > .c8 {
+  width: 40%;
+}
+
+.container > .color {
+  background: #99CCFF;
+}
+
+.field-height {
+  height: 100vh;
+}
+
+.between {
+  margin-right: 5px;
+}
+
+.between:last-child {
+  margin-right: 0;
+}
+
+.border {
+  border-radius: 40px;
+}

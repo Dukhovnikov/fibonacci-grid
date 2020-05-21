@@ -1,0 +1,37 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  grid-column-gap: 10px;
+  width: 100%;
+}
+
+.wrapper > .col-fib {
+  height: 100vh;
+}
+
+.wrapper > .col-fib:nth-child(6n + 1),
+.wrapper > .col-fib:nth-child(6n + 2) {
+  grid-column: span 1;
+}
+
+.wrapper > .col-fib:nth-child(6n + 3) {
+  grid-column: span 2;
+}
+
+.wrapper > .col-fib:nth-child(6n + 4) {
+  grid-column: span 3;
+}
+.wrapper > .col-fib:nth-child(6n + 5) {
+  grid-column: span 5;
+}
+.wrapper > .col-fib:nth-child(6n + 6) {
+  grid-column: span 8;
+}
+
+.border {
+  border-radius: 32px/52px;
+}
+
+.color {
+  background: #99CCFF;
+}
